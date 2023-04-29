@@ -290,6 +290,7 @@ describe('first suite', function () {
         cy.get('tbody tr').first().find('.nb-trash').click()
         cy.on('window:confirm', (confirm) => false)
     });
+
 });
 
 
